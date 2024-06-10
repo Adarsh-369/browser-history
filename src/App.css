@@ -89,7 +89,7 @@ body {
   padding: 10px;
 }
 
-.items-holder  {
+.items-holder {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

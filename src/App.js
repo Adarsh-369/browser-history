@@ -1,3 +1,5 @@
+import {Component} from 'react'
+
 import './App.css'
 
 // These are the list used in the application. You can move them to any component needed.
@@ -160,7 +162,7 @@ class App extends Component {
                     onClick={() => this.FillFunction(eachObject.id)}
                   >
                     <img
-                      classNmae="delete-icon"
+                      className="delete-icon"
                       src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
                       alt="delete"
                     />
@@ -179,5 +181,6 @@ class App extends Component {
     )
   }
 }
+  
 
 export default App
